@@ -2,8 +2,8 @@
 圆形进度条，方便改写
 图片如下：
 
-![Alt text](https://github.com/WMSmile/WMCircleProgressView/tree/master/Screenshots/circle.png)
-![Alt text](https://github.com/WMSmile/WMCircleProgressView/tree/master/Screenshots/circle.gif)
+[效果图](https://github.com/WMSmile/WMCircleProgressView/tree/master/Screenshots/circle.png)
+[效果图](https://github.com/WMSmile/WMCircleProgressView/tree/master/Screenshots/circle.gif)
 ###WMCircleProgressView用法：
 ```
   self.circleView = WMCircleProgressView.init(frame: CGRect(x: 0, y: 0, width: 200, height: 200))
