@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FF00D01EEA815200A5F44B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF00CF1EEA815200A5F44B /* AppDelegate.swift */; };
+		18FF00D21EEA815200A5F44B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF00D11EEA815200A5F44B /* ViewController.swift */; };
+		18FF00D51EEA815200A5F44B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FF00D31EEA815200A5F44B /* Main.storyboard */; };
+		18FF00D71EEA815200A5F44B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FF00D61EEA815200A5F44B /* Assets.xcassets */; };
+		18FF00DA1EEA815200A5F44B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FF00D81EEA815200A5F44B /* LaunchScreen.storyboard */; };
+		18FF00E51EEA815200A5F44B /* WMCircleProgressViewtestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF00E41EEA815200A5F44B /* WMCircleProgressViewtestTests.swift */; };
+		18FF00F01EEA815300A5F44B /* WMCircleProgressViewtestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF00EF1EEA815300A5F44B /* WMCircleProgressViewtestUITests.swift */; };
+		18FF00FF1EEA818600A5F44B /* WMCircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF00FE1EEA818600A5F44B /* WMCircleProgressView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FF00E11EEA815200A5F44B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FF00C41EEA815200A5F44B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FF00CB1EEA815200A5F44B;
+			remoteInfo = WMCircleProgressViewtest;
+		};
+		18FF00EC1EEA815200A5F44B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FF00C41EEA815200A5F44B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FF00CB1EEA815200A5F44B;
+			remoteInfo = WMCircleProgressViewtest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18FF00CC1EEA815200A5F44B /* WMCircleProgressViewtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMCircleProgressViewtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FF00CF1EEA815200A5F44B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18FF00D11EEA815200A5F44B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18FF00D41EEA815200A5F44B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FF00D61EEA815200A5F44B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FF00D91EEA815200A5F44B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18FF00DB1EEA815200A5F44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FF00E01EEA815200A5F44B /* WMCircleProgressViewtestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMCircleProgressViewtestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FF00E41EEA815200A5F44B /* WMCircleProgressViewtestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMCircleProgressViewtestTests.swift; sourceTree = "<group>"; };
+		18FF00E61EEA815200A5F44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FF00EB1EEA815200A5F44B /* WMCircleProgressViewtestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMCircleProgressViewtestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FF00EF1EEA815300A5F44B /* WMCircleProgressViewtestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMCircleProgressViewtestUITests.swift; sourceTree = "<group>"; };
+		18FF00F11EEA815300A5F44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FF00FE1EEA818600A5F44B /* WMCircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMCircleProgressView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FF00C91EEA815200A5F44B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FF00DD1EEA815200A5F44B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FF00E81EEA815200A5F44B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FF00C31EEA815200A5F44B = {
+			isa = PBXGroup;
+			children = (
+				18FF00CE1EEA815200A5F44B /* WMCircleProgressViewtest */,
+				18FF00E31EEA815200A5F44B /* WMCircleProgressViewtestTests */,
+				18FF00EE1EEA815200A5F44B /* WMCircleProgressViewtestUITests */,
+				18FF00CD1EEA815200A5F44B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FF00CD1EEA815200A5F44B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FF00CC1EEA815200A5F44B /* WMCircleProgressViewtest.app */,
+				18FF00E01EEA815200A5F44B /* WMCircleProgressViewtestTests.xctest */,
+				18FF00EB1EEA815200A5F44B /* WMCircleProgressViewtestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FF00CE1EEA815200A5F44B /* WMCircleProgressViewtest */ = {
+			isa = PBXGroup;
+			children = (
+				18FF00FD1EEA817200A5F44B /* WMCircleProgressView */,
+				18FF00CF1EEA815200A5F44B /* AppDelegate.swift */,
+				18FF00D11EEA815200A5F44B /* ViewController.swift */,
+				18FF00D31EEA815200A5F44B /* Main.storyboard */,
+				18FF00D61EEA815200A5F44B /* Assets.xcassets */,
+				18FF00D81EEA815200A5F44B /* LaunchScreen.storyboard */,
+				18FF00DB1EEA815200A5F44B /* Info.plist */,
+			);
+			path = WMCircleProgressViewtest;
+			sourceTree = "<group>";
+		};
+		18FF00E31EEA815200A5F44B /* WMCircleProgressViewtestTests */ = {
+			isa = PBXGroup;
+			children = (
+				18FF00E41EEA815200A5F44B /* WMCircleProgressViewtestTests.swift */,
+				18FF00E61EEA815200A5F44B /* Info.plist */,
+			);
+			path = WMCircleProgressViewtestTests;
+			sourceTree = "<group>";
+		};
+		18FF00EE1EEA815200A5F44B /* WMCircleProgressViewtestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18FF00EF1EEA815300A5F44B /* WMCircleProgressViewtestUITests.swift */,
+				18FF00F11EEA815300A5F44B /* Info.plist */,
+			);
+			path = WMCircleProgressViewtestUITests;
+			sourceTree = "<group>";
+		};
+		18FF00FD1EEA817200A5F44B /* WMCircleProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				18FF00FE1EEA818600A5F44B /* WMCircleProgressView.swift */,
+			);
+			path = WMCircleProgressView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FF00CB1EEA815200A5F44B /* WMCircleProgressViewtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FF00F41EEA815300A5F44B /* Build configuration list for PBXNativeTarget "WMCircleProgressViewtest" */;
+			buildPhases = (
+				18FF00C81EEA815200A5F44B /* Sources */,
+				18FF00C91EEA815200A5F44B /* Frameworks */,
+				18FF00CA1EEA815200A5F44B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMCircleProgressViewtest;
+			productName = WMCircleProgressViewtest;
+			productReference = 18FF00CC1EEA815200A5F44B /* WMCircleProgressViewtest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FF00DF1EEA815200A5F44B /* WMCircleProgressViewtestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FF00F71EEA815300A5F44B /* Build configuration list for PBXNativeTarget "WMCircleProgressViewtestTests" */;
+			buildPhases = (
+				18FF00DC1EEA815200A5F44B /* Sources */,
+				18FF00DD1EEA815200A5F44B /* Frameworks */,
+				18FF00DE1EEA815200A5F44B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FF00E21EEA815200A5F44B /* PBXTargetDependency */,
+			);
+			name = WMCircleProgressViewtestTests;
+			productName = WMCircleProgressViewtestTests;
+			productReference = 18FF00E01EEA815200A5F44B /* WMCircleProgressViewtestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18FF00EA1EEA815200A5F44B /* WMCircleProgressViewtestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FF00FA1EEA815300A5F44B /* Build configuration list for PBXNativeTarget "WMCircleProgressViewtestUITests" */;
+			buildPhases = (
+				18FF00E71EEA815200A5F44B /* Sources */,
+				18FF00E81EEA815200A5F44B /* Frameworks */,
+				18FF00E91EEA815200A5F44B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FF00ED1EEA815200A5F44B /* PBXTargetDependency */,
+			);
+			name = WMCircleProgressViewtestUITests;
+			productName = WMCircleProgressViewtestUITests;
+			productReference = 18FF00EB1EEA815200A5F44B /* WMCircleProgressViewtestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FF00C41EEA815200A5F44B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wumeng;
+				TargetAttributes = {
+					18FF00CB1EEA815200A5F44B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					18FF00DF1EEA815200A5F44B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18FF00CB1EEA815200A5F44B;
+					};
+					18FF00EA1EEA815200A5F44B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18FF00CB1EEA815200A5F44B;
+					};
+				};
+			};
+			buildConfigurationList = 18FF00C71EEA815200A5F44B /* Build configuration list for PBXProject "WMCircleProgressViewtest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FF00C31EEA815200A5F44B;
+			productRefGroup = 18FF00CD1EEA815200A5F44B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FF00CB1EEA815200A5F44B /* WMCircleProgressViewtest */,
+				18FF00DF1EEA815200A5F44B /* WMCircleProgressViewtestTests */,
+				18FF00EA1EEA815200A5F44B /* WMCircleProgressViewtestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FF00CA1EEA815200A5F44B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FF00DA1EEA815200A5F44B /* LaunchScreen.storyboard in Resources */,
+				18FF00D71EEA815200A5F44B /* Assets.xcassets in Resources */,
+				18FF00D51EEA815200A5F44B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FF00DE1EEA815200A5F44B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FF00E91EEA815200A5F44B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FF00C81EEA815200A5F44B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FF00FF1EEA818600A5F44B /* WMCircleProgressView.swift in Sources */,
+				18FF00D21EEA815200A5F44B /* ViewController.swift in Sources */,
+				18FF00D01EEA815200A5F44B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FF00DC1EEA815200A5F44B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FF00E51EEA815200A5F44B /* WMCircleProgressViewtestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FF00E71EEA815200A5F44B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FF00F01EEA815300A5F44B /* WMCircleProgressViewtestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FF00E21EEA815200A5F44B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FF00CB1EEA815200A5F44B /* WMCircleProgressViewtest */;
+			targetProxy = 18FF00E11EEA815200A5F44B /* PBXContainerItemProxy */;
+		};
+		18FF00ED1EEA815200A5F44B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FF00CB1EEA815200A5F44B /* WMCircleProgressViewtest */;
+			targetProxy = 18FF00EC1EEA815200A5F44B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FF00D31EEA815200A5F44B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FF00D41EEA815200A5F44B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FF00D81EEA815200A5F44B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FF00D91EEA815200A5F44B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FF00F21EEA815300A5F44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18FF00F31EEA815300A5F44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FF00F51EEA815300A5F44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WMCircleProgressViewtest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.wumeng.WMCircleProgressViewtest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18FF00F61EEA815300A5F44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WMCircleProgressViewtest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.wumeng.WMCircleProgressViewtest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		18FF00F81EEA815300A5F44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WMCircleProgressViewtestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.wumeng.WMCircleProgressViewtestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WMCircleProgressViewtest.app/WMCircleProgressViewtest";
+			};
+			name = Debug;
+		};
+		18FF00F91EEA815300A5F44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WMCircleProgressViewtestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.wumeng.WMCircleProgressViewtestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WMCircleProgressViewtest.app/WMCircleProgressViewtest";
+			};
+			name = Release;
+		};
+		18FF00FB1EEA815300A5F44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WMCircleProgressViewtestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.wumeng.WMCircleProgressViewtestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WMCircleProgressViewtest;
+			};
+			name = Debug;
+		};
+		18FF00FC1EEA815300A5F44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WMCircleProgressViewtestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.wumeng.WMCircleProgressViewtestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WMCircleProgressViewtest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FF00C71EEA815200A5F44B /* Build configuration list for PBXProject "WMCircleProgressViewtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FF00F21EEA815300A5F44B /* Debug */,
+				18FF00F31EEA815300A5F44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FF00F41EEA815300A5F44B /* Build configuration list for PBXNativeTarget "WMCircleProgressViewtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FF00F51EEA815300A5F44B /* Debug */,
+				18FF00F61EEA815300A5F44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18FF00F71EEA815300A5F44B /* Build configuration list for PBXNativeTarget "WMCircleProgressViewtestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FF00F81EEA815300A5F44B /* Debug */,
+				18FF00F91EEA815300A5F44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18FF00FA1EEA815300A5F44B /* Build configuration list for PBXNativeTarget "WMCircleProgressViewtestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FF00FB1EEA815300A5F44B /* Debug */,
+				18FF00FC1EEA815300A5F44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FF00C41EEA815200A5F44B /* Project object */;
+}
