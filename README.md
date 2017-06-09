@@ -4,6 +4,7 @@
 
 [效果图](https://github.com/WMSmile/WMCircleProgressView/tree/master/Screenshots/circle.png)
 [效果图](https://github.com/WMSmile/WMCircleProgressView/tree/master/Screenshots/circle.gif)
+
 ###WMCircleProgressView用法：
 ```
   self.circleView = WMCircleProgressView.init(frame: CGRect(x: 0, y: 0, width: 200, height: 200))
